@@ -239,6 +239,38 @@
 }
 }
 
+/* MacBook and Laptop responsiveness (1025px - 1600px) */
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .hero-section {
+    padding: 4rem 4vw 0rem !important;
+  }
+  .hero-content {
+    justify-content: flex-start !important;
+    gap: 3rem !important;
+  }
+  .hero-text {
+    max-width: 45vw !important;
+    margin-left: 2vw !important;
+  }
+  .hero-cards {
+    margin-left: 0 !important;
+    transform: scale(0.8) !important;
+    transform-origin: left top !important;
+    width: 600px !important;
+  }
+  .partners-bar {
+    justify-content: center !important;
+    gap: 4rem !important;
+  }
+  .partner-tagline {
+    margin-left: 0 !important;
+    min-width: auto !important;
+  }
+  .partners-logos {
+    margin-right: 0 !important;
+  }
+}
+
 /* Tablet responsiveness */
 @media (min-width:601px) and (max-width: 1024px) {
 

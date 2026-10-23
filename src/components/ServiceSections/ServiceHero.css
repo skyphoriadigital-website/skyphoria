@@ -131,6 +131,9 @@
 @media (min-width: 1200px) and (max-width: 1550px) {
   .hero-screenshot-wrapper {
     padding-left: 0vw;
+    height: 550px !important;
+    min-height: 550px !important;
+    margin-bottom: 90px !important;
   }
   .hero-screenshot-title {
     font-size: 4.4rem;

@@ -49,6 +49,22 @@
 
 
 }
+
+/* MacBook and Laptop responsiveness (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .about-container {
+    padding: 100px 4% !important;
+    gap: 80px !important;
+  }
+  .about-text {
+    margin-left: 40px !important;
+    max-width: 650px !important;
+  }
+  .about-image img {
+    max-width: 550px !important;
+  }
+}
+
 @media (min-width: 601px) and (max-width: 1024px) {
   .about-container {
     display: flex;
